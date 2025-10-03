@@ -1,0 +1,40 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category":"equipment",
+    "pattern": [
+      "rsr",
+      "cfc",
+      "rsr"
+    ],
+    "key": {
+      "s": {
+        "item": "salmon"
+      },
+      "r": {
+        "item": "seagrass"
+      },
+      "c": {
+        "item": "cod"
+      },
+      "f": {
+        "item": "fishing_rod"
+      }
+    },
+    "result": {
+        "id": "minecraft:fishing_rod",
+        "count": 1,
+        "components": {
+            "minecraft:custom_model_data": 1,
+      "minecraft:item_name": "[{\"text\":\"Lucky Rod\",\"color\":\"white\"}]",
+      "minecraft:lore": [
+        "[{\"translate\":\"item.lucky_rod.desc1\"}]",
+        "[{\"translate\":\"item.lucky_rod.desc2\"}]"
+      ],
+      "enchantments": {
+        "luck_of_the_sea":4,
+        "lure": 5,
+        "unbreaking": 10
+      }
+      }
+    }
+}

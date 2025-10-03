@@ -1,0 +1,1 @@
+give @s iron_axe[minecraft:lore=['[{"text":"A sturdy axe capable of felling most","color": "gray","italic": false}]','[{"text":"trees with one swing.","color": "gray","italic": false}]'],custom_name='[{"text":"Lumberjack\'s Axe","italic":false,"color":"white"}]',custom_model_data=1,custom_data={lumberjack_axe:1b},minecraft:enchantments={levels:{efficiency:1}}]

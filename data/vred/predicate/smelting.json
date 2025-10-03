@@ -1,0 +1,22 @@
+{
+    "condition": "minecraft:any_of",
+    "terms": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:iron_pickaxe"
+              ],
+              "predicates": {
+              "minecraft:custom_data": "{smelter_pickaxe:1b}"
+            }
+            }
+          }
+        }
+      }
+    ]
+  }
+  

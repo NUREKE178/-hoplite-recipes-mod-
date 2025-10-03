@@ -1,0 +1,37 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category":"equipment",
+    "pattern": [
+      "rrr",
+      "csc",
+      " s "
+    ],
+    "key": {
+      "s": {
+        "item": "stick"
+      },
+      "r": {
+        "item": "raw_iron"
+      },
+      "c": {
+        "item": "coal"
+      }
+    },
+    "result": {
+        "id": "minecraft:iron_pickaxe",
+        "count": 1,
+        "components": {
+            "minecraft:custom_model_data": 1,
+            "custom_data":"{smelter_pickaxe:1b}",
+      "minecraft:item_name": "[{\"text\":\"Smelter's Pickaxe\",\"color\":\"white\"}]",
+      "minecraft:lore": [
+        "[{\"translate\":\"item.smelter_pickaxe.desc1\"}]",
+        "[{\"translate\":\"item.smelter_pickaxe.desc2\"}]"
+      ],
+      "enchantments": {
+        "efficiency": 2,
+        "unbreaking": 1
+      }
+      }
+    }
+}

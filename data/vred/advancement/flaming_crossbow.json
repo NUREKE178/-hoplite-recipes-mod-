@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:shot_crossbow",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:crossbow"
+              ],
+              "components": {
+            "minecraft:custom_data": "{blazing_crossbow:1b}"
+          }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "vred:flaming_crossbow/shot"
+  }
+}

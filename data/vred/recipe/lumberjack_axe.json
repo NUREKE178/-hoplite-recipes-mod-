@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category":"equipment",
+    "pattern": [
+      "rrc",
+      "rs ",
+      " s "
+    ],
+    "key": {
+      "s": {
+        "item": "stick"
+      },
+      "r": {
+        "item": "iron_ingot"
+      },
+      "c": {
+        "item": "flint"
+      }
+    },
+    "result": {
+        "id": "minecraft:iron_axe",
+        "count": 1,
+        "components": {
+          "custom_data":"{lumberjack_axe:1b}",
+            "minecraft:custom_model_data": 1,
+      "minecraft:item_name": "[{\"text\":\"Lumberjack's Axe\",\"color\":\"white\"}]",
+      "minecraft:lore": [
+        "[{\"text\":\"A sturdy axe capable of felling most\",\"color\":\"gray\", \"italic\": false}]",
+        "[{\"text\":\"trees with one swing.\",\"color\":\"gray\",\"italic\": false}]"
+      ],
+      "enchantments": {
+        "efficiency": 1
+      }
+      }
+    }
+}

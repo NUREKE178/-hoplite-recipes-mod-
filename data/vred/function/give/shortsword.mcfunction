@@ -1,0 +1,1 @@
+give @s iron_sword[minecraft:lore=['[{"translate":"item.shortsword.desc1"}]','[{"translate":"item.shortsword.desc2"}]'],custom_name='[{"text":"Shortsword","italic":false,"color":"white"}]',custom_model_data=2,minecraft:enchantments={levels:{sharpness:1}}]

@@ -1,0 +1,1 @@
+give @s netherite_sword[minecraft:lore=['[{"translate":"item.light_netherite_sword.desc1"}]'],custom_name='[{"text":"Light Netherite Sword","italic":false,"color":"dark_gray"}]',custom_model_data=2,repair_cost=5,max_damage=1561]

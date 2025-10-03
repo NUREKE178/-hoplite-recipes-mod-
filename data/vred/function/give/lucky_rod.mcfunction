@@ -1,0 +1,1 @@
+give @s fishing_rod[minecraft:lore=['[{"translate":"item.lucky_rod.desc1"}]','[{"translate":"item.lucky_rod.desc2"}]'],custom_name='[{"text":"Lucky Rod","italic":false,"color":"white"}]',custom_model_data=1,minecraft:enchantments={levels:{luck_of_the_sea:4,lure:5,unbreaking:10}}]

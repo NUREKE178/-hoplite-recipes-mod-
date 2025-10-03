@@ -1,0 +1,42 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category":"equipment",
+    "pattern": [
+      "___",
+      "_D_",
+      "___"
+    ],
+    "key": {
+      "_": {
+        "item": "gold_ingot"
+      },
+      "D": {
+        "item": "minecraft:player_head"
+      }
+    },
+    "result": {
+        "id": "minecraft:recovery_compass",
+        "count": 1,
+        "components": {
+            "minecraft:custom_model_data": 4,
+      "minecraft:unbreakable": {
+        "show_in_tooltip": false
+      },
+      "minecraft:item_name": "[{\"text\":\"Golden Head\",\"color\":\"yellow\"}]",
+      "minecraft:lore": [
+        "[{\"translate\":\"item.ghead.desc1\"}]",
+        "[{\"translate\":\"item.ghead.desc2\"}]",
+        "[{\"text\":\"\"}]",
+        "[{\"translate\":\"item.ghead.desc3\"}]",
+        "[{\"translate\":\"item.ghead.desc4\"}]",
+        "[{\"translate\":\"item.ghead.desc5\"}]"
+      ],
+      "minecraft:food":{
+        "nutrition":2,
+        "saturation":0.5,
+        "can_always_eat":true,
+        "eat_seconds":0.1,
+        "effects": [{"effect":{"id":"regeneration","duration":200,"amplifier":2},"probability":1},{"effect":{"id":"speed","duration":300,"amplifier":1},"probability":1},{"effect":{"id":"absorption","duration":1200,"amplifier":1},"probability":1}]}
+        }
+    }
+}

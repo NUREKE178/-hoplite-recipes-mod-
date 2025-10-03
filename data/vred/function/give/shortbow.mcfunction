@@ -1,0 +1,1 @@
+give @s bow[minecraft:lore=['[{"translate":"item.shortbow.desc1"}]','[{"translate":"item.shortbow.desc2"}]'],custom_name='[{"text":"Shortbow","italic":false,"color":"white"}]',custom_model_data=4,minecraft:enchantments={levels:{power:1}}]

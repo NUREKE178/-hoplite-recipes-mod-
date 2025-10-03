@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shaped",
+    "category":"equipment",
+    "pattern": [
+      " r ",
+      "csc",
+      " r "
+    ],
+    "key": {
+      "s": {
+        "item": "minecraft:crossbow"
+      },
+      "r": {
+        "item": "minecraft:magma_cream"
+      },
+      "c": {
+        "item": "minecraft:blaze_powder"
+      }
+    },
+    "result": {
+        "id": "minecraft:crossbow",
+        "count": 1,
+        "components": {
+            "minecraft:custom_model_data": 3,
+            "custom_data":"{blazing_crossbow:1b}",
+      "minecraft:item_name": "[{\"text\":\"Blazing Crossbow\",\"color\":\"#ff3300\"}]",
+      "minecraft:lore": [
+        "[{\"translate\":\"item.blazing_crossbow.desc1\"}]",
+        "[{\"translate\":\"item.blazing_crossbow.desc2\"}]"
+      ],
+      "enchantments": {
+        "quick_charge": 1,
+        "unbreaking": 1
+      }
+      }
+    }
+}

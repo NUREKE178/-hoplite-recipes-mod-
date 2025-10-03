@@ -1,0 +1,1 @@
+give @s splash_potion[minecraft:lore=['[{"translate":"item.agony.desc1"}]','[{"translate":"item.agony.desc2"}]'],potion_contents={custom_color:0,custom_effects:[{id:instant_damage,duration:600,amplifier:1},{id:weakness,duration:60}]},custom_name='["",{"text":"Agony","italic":false,"color":"dark_red"}]']

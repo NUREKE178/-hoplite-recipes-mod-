@@ -1,0 +1,1 @@
+give @s iron_pickaxe[minecraft:lore=['[{"translate":"item.smelter_pickaxe.desc1"}]','[{"translate":"item.smelter_pickaxe.desc2"}]'],custom_name='[{"text":"Smelter\'s Pickaxe","italic":false,"color":"white"}]',custom_model_data=1,custom_data={smelter_pickaxe:1b},minecraft:enchantments={levels:{efficiency:2,unbreaking:1}}]

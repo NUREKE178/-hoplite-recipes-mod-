@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category":"equipment",
+    "pattern": [
+      " r ",
+      "cfc",
+      " s "
+    ],
+    "key": {
+      "s": {
+        "item": "netherite_scrap"
+      },
+      "r": {
+        "item": "firework_star"
+      },
+      "c": {
+        "item": "obsidian"
+      },
+      "f": {
+        "item": "diamond_sword"
+      }
+    },
+    "result": {
+        "id": "minecraft:netherite_sword",
+        "count": 1,
+        "components": {
+            "minecraft:custom_model_data": 2,
+      "minecraft:item_name": "[{\"text\":\"Light Netherite Sword\",\"color\":\"dark_gray\"}]",
+      "minecraft:lore": [
+        "[{\"translate\":\"item.light_netherite_sword.desc1\"}]"
+      ],
+      "repair_cost": 5,
+      "max_damage": 1561
+      }
+    }
+}

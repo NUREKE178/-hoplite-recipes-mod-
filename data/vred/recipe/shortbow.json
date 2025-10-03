@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category":"equipment",
+    "pattern": [
+      "sss",
+      "sfs",
+      "sss"
+    ],
+    "key": {
+      "s": {
+        "item": "copper_ingot"
+      },
+      "f": {
+        "item": "bow"
+      }
+    },
+    "result": {
+        "id": "minecraft:bow",
+        "count": 1,
+        "components": {
+            "minecraft:custom_model_data": 4,
+      "minecraft:item_name": "[{\"text\":\"Shortbow\",\"color\":\"white\"}]",
+      "minecraft:lore": [
+        "[{\"translate\":\"item.shortsword.desc1\"}]",
+        "[{\"translate\":\"item.shortsword.desc2\"}]"
+      ],
+      "enchantments": {
+        "power":1
+      }
+      }
+    }
+}

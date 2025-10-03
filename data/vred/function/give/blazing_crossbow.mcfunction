@@ -1,0 +1,1 @@
+give @s crossbow[minecraft:lore=['[{"translate":"item.blazing_crossbow.desc1"}]','[{"translate":"item.blazing_crossbow.desc2"}]'],custom_name='[{"text":"Blazing Crossbow","color":"#ff3300","italic":false}]',custom_model_data=3,custom_data={blazing_crossbow:1b},minecraft:enchantments={levels:{quick_charge:1,unbreaking:1}}]
